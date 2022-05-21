@@ -1,0 +1,29 @@
+为对象定义类：对象对应一个实体，有自己的状态（属性），标识，行为；类使用构造方法创建新对象，完成初始化
+构造方法构造对象：构造方法名字与类同，构造方法无返回值，用New构造。
+java中的类：
+java.util.Date:toString();
+java.util.Random:nextInt();nextInt(n: int);nextLong();nextDouble();nextFloat();nextBoolean():
+静态变量：实例变量绑定到类的某个特定实例，不能 被不同对象共享。static静态变量（类变量）储存在公告内存地址，并且在java中，无须创建类实例就可以调用static静态方法。,c常量用final static
+可见性修饰符：public-任何类可访问 默认类-包内类能访问 private-自己类能访问
+数据域封装：set和get
+对象数组：Circle[] circleArray = new Circle[10];(默认值null)
+不可变类:数据域私有 不提供set  无返回指向可变数据域的引用的访问器方法
+局部变量：局部变量优先于类变量
+this:this引用对象本身也能调用同一个类的其他构造方法,隐藏的实例变量用this,隐藏的静态变量用类名。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
