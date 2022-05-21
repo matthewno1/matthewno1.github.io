@@ -1,0 +1,3 @@
+声明二维数组并创建二维数组：type[][] array; array = new int[size][size];int[][] array = {{1,2,3},{4,5,6}};
+获取二维数组长度:x.length--行数,x[0].length--每列数。
+锯齿数组：每行长度不同。创建方式：int[][] triangleArray = new int[5][]; triangleArray[0] = new int[5];triangleArray[1] = ne int[4];
