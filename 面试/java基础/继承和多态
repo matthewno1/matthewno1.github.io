@@ -1,0 +1,13 @@
+子类从父类继承可访问的数据域和方法
+构造方法不继承 ，super调用父类的构造方法
+super也能引用父类的方
+方法重写：修改父类定义方法的实现，静态方法能继承，但不能被覆盖
+重写标注：@override
+多态是指使用父类的地方都能使用子类。
+动态绑定是指：声明类型是实例类型的父类型，实例类型是更具实际类型决定。从最特殊到最通用。
+显示转换：Student b = (Student)o;子类的实例转化为父类的变量-向上转换
+ArrayList类：add,clear, contains, get, indextOf, isEmpty, lastIndexOf, remove, size(), set.可使用foreach。
+对列表有用的方法：list.toArray(array1); array.asList(array);Collection.sort();Collections.max,min,shuffle;
+stack类:ArrayList<object>  isEmpty(); getSize(); peek(); pop(); pop();
+protected允许子类访问父类。
+final 防止扩展和重写
