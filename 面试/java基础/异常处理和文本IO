@@ -1,1 +1,8 @@
-
+try{} catch(Exception ex){}
+异常类型-object-Throwable-Exception,Error-ClassNotFound,IO,Runtime,Linkage,virtualMachine
+声明异常throws ,抛出异常throw;声明异常只需要声明io,classNOtfound
+finally必须执行，就算有return，final也必须执行。
+extend Exception自定义异常
+file类和printWriter:PrintWriter output = new PrintWriter(filename);
+print写入，自动关闭文件try(){} ()里面的执行完毕后关闭。
+scanner读入数据：hasNext,next, nextLineuseDelimiter
