@@ -1,0 +1,2 @@
+散列实现映射表和集合，在o1的时间内查找
+HashMap-散列  LinkedHashMap-LinkedList  TreeMap-红黑树
